@@ -1,0 +1,91 @@
+body
+{
+	background-color: #1abc9c;
+	color: black;
+}
+.login
+{
+    width: 100%;
+    position: relative;
+    float: right;
+}
+.signup
+{
+    width: 100%;
+    position: relative;
+    float: right;
+}
+table,tr,td
+{
+	padding: 1px;
+	font-family: tahoma;
+	font-weight: bold;
+}
+table
+{
+	width: 60%;
+}
+.table_login
+{
+    width: 70%;
+}
+input[type=submit]
+{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover
+{
+    background-color: #45a049;
+}
+input[type=text]
+{
+    width: 100%;
+    padding: 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=Password]
+{
+    width: 100%;
+    padding: 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+li
+{
+   display: inline;
+}
+li a
+{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background-color:  #2277bb;
+    border-radius: 4px;
+}
+li a:hover
+{
+    background-color:#119922;
+    cursor: pointer;
+}
+.gender
+{
+    cursor: pointer;
+}

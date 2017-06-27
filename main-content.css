@@ -1,0 +1,50 @@
+table
+{
+    height: 100%;
+    width: 100%;
+}
+body
+{
+    background-color: #1abc9c;
+    padding-top: 50px;
+}
+.starter-template 
+{
+  padding-top: 0px;
+}
+
+.iframe
+{
+    width: 80%;
+    float: left;
+}
+.ads
+{
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    left: 80%;
+    background-color: grey;
+}
+#iframe
+{
+    border:none;
+    width: 80%;
+    position: absolute;
+    height: 130%
+}
+img
+{
+    height: 30px;
+    width: 150px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 20px;
+  background-color: black;
+  text-align: center;
+  font-weight: bold;
+}

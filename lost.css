@@ -1,0 +1,31 @@
+body
+{
+	background-color:#1abc9c;
+	color:black;
+}
+input[type=submit]
+{
+	color:white;
+	cursor: pointer;
+	padding: 10px;
+	background-color: #4caf50;
+	border:none;
+	border-radius: 4px;
+}
+input[type=submit]:hover
+{
+	cursor:pointer;
+	background-color:#45a049;
+}
+table,tr,td
+{
+	height: 50px;
+	width:auto;
+}
+input[type=text]
+{
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	border:none;
+}
