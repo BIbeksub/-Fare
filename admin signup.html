@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<style>
+	body
+	{
+	background-color: #aaaabb;
+	}
+
+	input[type=submit]
+	{
+		color: white;
+		padding: 5%;
+		background-color: #2277bb;
+		border-radius: 6px;
+		border:none;
+	}
+	input[type=submit]:hover
+	{
+		background-color: #119922;
+		cursor: pointer;
+	}
+	input[type=text]
+	{
+	padding: 5%;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	}
+	input[type=password]
+	{
+	padding: 5%;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	}
+
+</style>
+<head>
+	<title>ADMIN SIGN UP</title>
+</head>
+<body>
+<form>
+<h2 align="center">ADMIN SIGN UP</h2>
+	<table align="center">
+		<tr>
+			<td>USERNAME</td>
+			<td><input type="text" name="username" placeholder="USERNAME" maxlength="20"></td>
+		</tr>
+		<tr>
+		   <td>PASSWORD</td>
+		   <td><input type="password" name="password" placeholder="PASSWORD" minlength="7" maxlength="15">
+		</td>
+		</tr>
+		   <tr>
+		    <td>RE-ENTER PASSWORD</td>
+		 <td><input type="password" name="password" placeholder="RE-ENTER PASSWORD" minlength="7" maxlength="15">
+		</td>
+		</tr>
+		<tr>
+			<td align="center" colspan="2"><br><input type="submit" value="SIGN UP"></td>
+		</tr>
+
+	</table>
+
+</form>
+</body>
+</html>

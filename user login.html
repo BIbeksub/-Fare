@@ -10,9 +10,12 @@
 	<form action="login.html">
 	<table class="table_login" align="right">
 		<tr>
-		<td>Username :<input type="text" name="u_name" maxlength="15" style="width:62%" required></td>
-		<td>Password :<input type="Password" name="p_word" minlength="8" maxlength="25" style="width: 65%" required></td>
+		<td>Username :<input type="text" name="u_name" maxlength="15"  placeholder="USERNAME" style="width:62%" required></td>
+		<td>Password :<input type="Password" name="p_word" minlength="8" maxlength="25"  placeholder="PASSWORD" style="width: 65%" required></td>
 		<td><input type="submit" value="LOG IN"></td>
+		</tr>
+		<tr>
+		<td colspan="3" align="right"><a href="u_forgot.html">Forgot your password?</a></td>
 		</tr>
 	</table>
 	</form>
@@ -25,15 +28,15 @@
 	<table align="center">
 			<tr>
 			<td>LAST NAME</td>
-			<td colspan="3"><input type="text" name="lastname" placeholder="LAST NAME" maxlength="20"></td>
+			<td colspan="3"><input type="text" name="lastname" placeholder="LAST NAME" maxlength="20" required></td>
 		</tr>
 		<tr>
 			<td>FIRST NAME</td>
-			<td colspan="3"><input type="text" name="firstname" placeholder="FIRST NAME" maxlength="20"></td>
+			<td colspan="3"><input type="text" name="firstname" placeholder="FIRST NAME" maxlength="20" required></td>
 		</tr>
 		<tr>
 			<td>MIDDLE NAME</td>
-			<td colspan="3"><input type="text" name="middlename" placeholder="MIDDLE NAME" maxlength="20"></td>	
+			<td colspan="3"><input type="text" name="middlename" placeholder="MIDDLE NAME" maxlength="20" required></td>	
 		</tr>
 		<tr>
 			<td>D.O.B</td>
@@ -60,23 +63,23 @@
 		</tr>
 		<tr>
 			<td>EMAIL ADDRESS</td>
-			<td colspan="3"><input type="text" name="email" placeholder="EMAIL ADDRESS" maxlength="50"></td>
+			<td colspan="3"><input type="text" name="email" placeholder="EMAIL ADDRESS" maxlength="50" required></td>
 		</tr>
 		<tr>
 			<td>CONTACT NO</td>
-			<td colspan="3"><input type="text" name="contact" placeholder="CONTACT" maxlength="10"></td>
+			<td colspan="3"><input type="text" name="contact" placeholder="CONTACT" maxlength="10" required></td>
 		</tr>
 		<tr>
 			<td>USERNAME</td>
-			<td colspan="3"> <input type="text" name="u_name" placeholder="USERNAME" maxlength="15"></td>		
+			<td colspan="3"> <input type="text" name="u_name" placeholder="USERNAME" maxlength="15" required></td>		
 		</tr>
 		<tr>
 			<td>PASSWORD</td>
-			<td colspan="3"> <input type="Password" name="p_word" placeholder="PASSWORD" minlength="7" maxlength="15"></td>		
+			<td colspan="3"> <input type="Password" name="p_word" placeholder="PASSWORD" minlength="7" maxlength="15" required></td>		
 		</tr>
 				<tr>
 			<td>RE-ENTER PASSWORD</td>
-			<td colspan="3"> <input type="Password" name="p_word" placeholder="PASSWORD" minlength="7" maxlength="15"></td>		
+			<td colspan="3"> <input type="Password" name="p_word" placeholder="PASSWORD" minlength="7" maxlength="15" required></td>		
 		</tr>
 		<tr>
 			<td>SECURITY QUESTION</td>
@@ -92,7 +95,7 @@
 		</tr>
 			<tr>
 			<td>SECURITY ANSWER</td>
-			<td colspan="3"><input type="text" name="security_ans" maxlength="15"></td>
+			<td colspan="3"><input type="text" name="security_ans" maxlength="15" required></td>
 		</tr>
 		<tr>
 			<td>CARD CATEGORY</td>
@@ -108,19 +111,19 @@
 		<tr>
 		<td>UPLOAD YOUR PHOTO</td>
 		<td colspan="3">
-			<input type="file" name="">
+			<input type="file" name="" required>
 		</td>
 		</tr>
 		<tr>
 		<td>UPLOAD YOUR ID-CARD</td>
 		<td colspan="3">
-			<input type="file" name="">
+			<input type="file" name="" required>
 		</td>
 		</tr>
 		<tr>
 		<td>UPLOAD YOUR CITIZENSHIP</td>
 		<td colspan="3">
-			<input type="file" name="">
+			<input type="file" name="" required>
 		</td>
 		</tr>
 		<tr>
