@@ -7,14 +7,12 @@
 </head>
 <body>
 	<div class="login">
-	<form>
+	<form action="login.html">
 	<table class="table_login" align="right">
 		<tr>
-		<td>Username :<input type="text" name="u_name" maxlength="15" style="width:62%"></td>
-		<td>Password :<input type="Password" name="p_word" minlength="8" maxlength="25" style="width: 65%"></td>
-		<td><ul>
-			<li><a href="login.html">LOG IN</a></li>
-		</ul></td>
+		<td>Username :<input type="text" name="u_name" maxlength="15" style="width:62%" required></td>
+		<td>Password :<input type="Password" name="p_word" minlength="8" maxlength="25" style="width: 65%" required></td>
+		<td><input type="submit" value="LOG IN"></td>
 		</tr>
 	</table>
 	</form>
@@ -23,6 +21,7 @@
 	<div class="signup">
 	<hr>
 	<h3 align="center">New to हाम्रो FARE? Sign Up and apply for Card here!!</h3>
+	<form action="">
 	<table align="center">
 			<tr>
 			<td>LAST NAME</td>
@@ -57,7 +56,7 @@
 		</tr>
 		<tr>
 			<td>ADDRESS</td>
-			<td colspan="3"><input type="text" name="p_address" placeholder="ADDRESS" maxlength="20"></td>
+			<td colspan="3"><input type="text" name="p_address" placeholder="ADDRESS" maxlength="20" required></td>
 		</tr>
 		<tr>
 			<td>EMAIL ADDRESS</td>
@@ -126,12 +125,11 @@
 		</tr>
 		<tr>
 			<td colspan="3" align="center">
-			<ul>
-			<li><a href="login1.html">SIGN UP</a></li>
-			</ul>
+			<input type="submit" value="SIGN UP">
 			</td>
 		</tr>
 	</table>
+	</form>
 	</div>
 </body>
 </html>

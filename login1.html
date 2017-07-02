@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="form1.css">
 <style>
 ul
 {
@@ -19,23 +18,37 @@ li a
     padding: 16px;
     text-decoration: none;
     background-color:  #2277bb;
+    border-radius: 6px;
 }
 li a:hover
 {
     background-color:#119922;
     cursor: pointer;
 }
+input[type=text]
+{
+	padding: 10px;
+	width: 100%;
+	border-radius: 6px;
+	border:none;
+}
+input[type=password]
+{
+	padding: 10px;
+	width: 100%;
+	border-radius: 6px;
+	border:none;
+}
 </style>
 <head>
 	<title>USER LOGIN</title>
 </head>
 <body style="background-color:#aabbcc">
-<div style="height: 20%;width: 20%;position: fixed;left:40%;top: 10%">
+<div style="height: 20%;width: 30%;position: fixed;left:40%;top: 10%">
 <h3>Congratulations!!! you have signed up sucessfully.</h3>
-
 <h2 align="center">User login</h2>
 	<form>
-		Username :<input type="text" name="u_name" maxlength="15" style="width:62%">
+		Username :<input type="text" name="u_name" maxlength="15" style="width:64%">
 		<br>
 		<br>
 		Password :<input type="Password" name="p_word" minlength="8" maxlength="25" style="width: 65%">

@@ -31,7 +31,7 @@ table
 }
 input[type=submit]
 {
-    width: 100%;
+    width: 100px;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -60,30 +60,6 @@ input[type=Password]
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-}
-ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-}
-li
-{
-   display: inline;
-}
-li a
-{
-    color: white;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    background-color:  #2277bb;
-    border-radius: 4px;
-}
-li a:hover
-{
-    background-color:#119922;
-    cursor: pointer;
 }
 .gender
 {
