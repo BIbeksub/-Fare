@@ -19,7 +19,7 @@ input[type=submit]:hover
 }
 table,tr,td
 {
-	height: 50px;
+	height: auto;
 	width:auto;
 }
 input[type=text]
